@@ -1,0 +1,79 @@
+# SPDX-FileCopyrightText: © 2009 Back In Time team
+#
+# SPDX-License-Identifier: CC0-1.0
+#
+# This file is released under Creative Commons Zero 1.0 (CC0-1.0) and part of
+# the program "Back In Time". The program as a whole is released under GNU
+# General Public License v2 or any later version (GPL-2.0-or-later).
+# See LICENSES directory or go to <https://spdx.org/licenses/CC0-1.0.html>
+# and <https://spdx.org/licenses/GPL-2.0-or-later.html>.
+[Desktop Entry]
+# Version of the Desktop Entry Specification
+Version=1.5
+Exec=backintime-qt
+Icon=backintime
+Terminal=false
+Type=Application
+StartupNotify=true
+# See Desktop Menu Specification
+Categories=Utility;System;Archiving;Qt;
+
+Name=Back In Time
+Name[pt_BR]=Cópia de Segurança de Arquivos Back In Time
+
+GenericName=Versioned Backups
+GenericName[cs]=Verzované zálohy
+GenericName[da]=Versionerede tilstandsbilleder
+GenericName[de]=Versionierte Sicherungen
+GenericName[el]=Aντίγραφα ασφαλείας βάσει εκδόσεων
+GenericName[eo]=Versiitaj Savkopioj
+GenericName[es]=Copias de seguridad versionadas
+GenericName[et]=Versioonidega varukoopiad
+GenericName[eu]=Bertsiodun babeskopiak
+GenericName[fi]=Versioidut varmuuskopiot
+GenericName[fr]=Sauvegardes versionnées
+GenericName[gl]=Copias de seguranza versionadas
+GenericName[hu]=Verziózott biztonsági mentések
+GenericName[it]=Backup con versione
+GenericName[ja]=バージョン管理されたバックアップ
+GenericName[nl]=Versie-beheerde Back-ups
+GenericName[pl]=Wersjonowane kopie zapasowe
+GenericName[pt]=Copias de Segurança com Versões
+GenericName[pt_BR]=Cópias de segurança versionadas
+GenericName[ro]=Copii de rezervă cu versiuni
+GenericName[ru]=Версионные резервные копии
+GenericName[sl]=Verzijske varnostne kopije
+GenericName[sv]=Versionsbaserade säkerhetskopior
+GenericName[tr]=Sürümlü Yedeklemeler
+GenericName[uk]=Резервні копії з версіями
+GenericName[zh_CN]=版本化备份
+
+# Limit comments to 80 chars (Not in Desktop Entry Spec but Debian Lintian)   80th char --> |
+Comment=User-friendly GUI for versioned backups that reduces disk usage
+Comment[ca]=GUI fàcil d'utilitzar per a còpies de seguretat versionades que redueix l'ús del disc
+Comment[cs]=Přívětivé GUI pro verzované zálohy, které snižuje jimi zabírané místo
+Comment[da]=Brugervenligt grafisk interface for versionerede tilstandsbilleder der reducerer lagerforbrug
+Comment[de]=GUI für versionierte Sicherungen mit reduziertem Speicherplatzbedarf
+Comment[el]=Φιλικό προς το χρήστη γραφικό περιβάλλον χρήστη (GUI) για αντίγραφα ασφαλείας με βάση τις εκδόσεις που μειώνει τη χρήση του δίσκου
+Comment[eo]=Uzanto-amika grafika interfaco por versiigitaj sekurkopioj kiu reduktas diskouzadon
+Comment[es]=Interfaz gráfica de usuario fácil de usar para copias de seguridad versionadas que reduce el uso del disco
+Comment[et]=Kasutajasõbralik liides versioonidega varukoopiate jaoks - see vähendab andmeruumi kasutust
+Comment[eu]=Diskoaren erabilera murrizten duten bertsiodun babeskopietarako interfaze erabilerraza
+Comment[fr]=Interface facile pour sauvegardes versionnées prenant moins d'espace
+Comment[gl]=GUI amigábel para copias de seguranza con uso reducido de disco
+Comment[hu]=Felhasználóbarát grafikus felület a verziózott biztonsági mentésekhez, ami csökkenti a lemezhasználatot
+Comment[it]=Interfaccia grafica intuitiva per backup con versioni che riduce l'utilizzo del disco
+Comment[ja]=バージョン管理されたバックアップのための使いやすいGUIで、ディスク使用量を削減します
+Comment[nl]=Gebruiksvriendelijke GUI voor versie-beheerde back-ups die het schijfgebruik vermindert
+Comment[pl]=Łatwy w obsłudze interfejs do tworzenia wersjonowanych kopii zapasowych
+Comment[pt]=GUI intuitivo para cópias de segurança com versões que reduzem uso do disco
+Comment[pt_BR]=O ‘Back In Time’ significa em idioma português ‘De Volta ao Passado’ ou ‘Voltar no Tempo’, trata-se de um programa que permite realizar cópias de segurança (backups) dos arquivos e das pastas com versões (ou versionadas) que reduzem a utilização do espaço no dispositivo de armazenamento (disco rígido, dispositivo de estado sólido ou SSD, etc.), possui uma interface gráfica intuitiva e configurável, além de uma versão de linha de comando, possibilita a realização de cópias de segurança incrementais, os arquivos modificados são transferidos enquanto que os arquivos inalterados são vinculados (ou ligados) à nova pasta utilizando o recurso de ligação física do ‘rsync’, a restauração dos arquivos e das pastas é simples podendo ser realizada por meio do gerenciador de arquivos ou por meio da linha de comando ou pelo próprio Back In Time
+Comment[ro]=GUI ușor de utilizat pt. copii de rezervă cu versiuni ce reduce utiliz. discului
+Comment[ru]=Графический интерфейс для версионных резервных копий, которые уменьшают расход диска
+Comment[sv]=Användarvänligt gränssnitt för versionsbaserade säkerhetskopior som reducerar användning av diskutrymme
+Comment[tr]=Disk kullanımını azaltan, sürümlü yedeklemeler için kullanıcı dostu grafik arayüzü
+Comment[uk]=Створення копій з підтримкою версій для заощадження місця на диску
+Comment[zh_CN]=用户友好的版本化备份 GUI，减少磁盘使用
+
+Keywords=backup;incremental;automatic;restore;rsync;
+Keywords[pt_BR]=cópia de segurança;backup;incremental;automático;automatizar;automatização;restauração;rsync;arquivos;pastas;versões;versionadas;modificados;modificações;restauração;restaurar;
