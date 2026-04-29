@@ -1,0 +1,27 @@
+# SPDX-FileCopyrightText: © 2009 Back In Time team
+#
+# SPDX-License-Identifier: CC0-1.0
+#
+# This file is released under Creative Commons Zero 1.0 (CC0-1.0) and part of
+# the program "Back In Time". The program as a whole is released under GNU
+# General Public License v2 or any later version (GPL-2.0-or-later).
+# See LICENSES directory or go to <https://spdx.org/licenses/CC0-1.0.html>
+# and <https://spdx.org/licenses/GPL-2.0-or-later.html>.
+[Desktop Entry]
+Version=1.5
+Exec=/bin/sh -c "backintime pw-cache start 2>&1 >/dev/null"
+Icon=gtk-save
+Terminal=NO
+Type=Application
+
+Name=Back In Time Password Cache
+Name[pt_BR]=Senhas das Tarefas do Back In Time
+
+GenericName=Password manager
+GenericName[pt_BR]=Gerenciador de Senhas
+
+Comment=Cache passwords for non-interactive Back In Time cronjobs
+Comment[pt_BR]=O ‘Back In Time Password Cache’ permite armazenar no ‘cache’ as senhas que são utilizadas nas tarefas do ‘Cron’ que não são interativas ao Back In Time
+
+Keywords=passwords;cache;cronjobs;
+Keywords[pt_BR]=gerenciador;gestor;gerenciar;senhas;cache;agendador;tarefas;cron;
